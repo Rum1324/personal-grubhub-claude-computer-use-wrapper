@@ -1,6 +1,6 @@
 # grubhub skill
 
-Claude skill that turns a 7–8 click Grubhub order into: **"grubhub" → pick a number → "yes" → order # + pickup ETA.**
+Claude skill that turns a 7–8 click Grubhub order into: **"grubhub" → pick a number → order # + pickup ETA.**
 Built for Berkeley Cal Dining meal equivalencies (free, one every 30 min).
 
 ## Requirements
@@ -15,8 +15,7 @@ The emulator boots headless per order (~10 s from snapshot, ~2–4 GB RAM) and s
 | Say | What happens |
 |---|---|
 | `grubhub` | numbered favorites + meal-equivalency cooldown |
-| `3` / `order 3` | builds the order in the app in one scripted pass (`prepare`), checks payment is 1 meal equivalency (no $ charge), asks "Go?" |
-| `yes` | places it, replies `✅ Order #… — ready ~…` |
+| `3` / `order 3` | builds the order in the app in one scripted pass (`prepare`), checks payment is 1 meal equivalency (no $ charge), places it — no extra confirmation |
 | `dry run 3` | same, but stops before placing |
 | `setup` | rebuilds favorites (≤10) from your Grubhub order history |
 
