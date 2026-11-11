@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "label": "Cheeseburger + fries",
+    "restaurant": "The Golden Bear Café - Meal Equivalency Menu",
+    "item": "Cheeseburger",
+    "choices": [
+      "French Fries"
+    ],
+    "instructions": ""
+  },
+  {
+    "id": 2,
+    "label": "½ Turkey Pesto + ½ Minestrone",
+    "restaurant": "Ladle & Leaf - Meal Equivalency Menu",
+    "item": "1/2 Turkey Pesto Sandwich + 1/2 Soup + Beverage",
+    "choices": [
+      "Minestrone"
+    ],
+    "instructions": ""
+  },
+  {
+    "id": 3,
+    "label": "Katora Bowl — Chicken Tikka + Alu Chole",
+    "restaurant": "Monsoon Kitchens - Meal Equivalency Menu",
+    "item": "Katora Bowl + Beverage",
+    "choices": [
+      "Basmati Rice",
+      "Chicken Tikka Masala",
+      "Alu Chole",
+      "Kachumber"
+    ],
+    "instructions": "",
+    "note": "Top it Off group is collapsed: tap \"Top it Off\" before picking the chutneys/Kachumber."
+  },
+  {
+    "id": 4,
+    "label": "Chicken Souvlaki Pita (north side)",
+    "restaurant": "Gateway Cafe - Meal Equivalency Menu",
+    "item": "Classic Chicken Souvlaki Pita",
+    "choices": [],
+    "instructions": ""
+  },
+  {
+    "id": 5,
+    "label": "BYO Mediterranean Bowl (north side)",
+    "restaurant": "Gateway Cafe - Meal Equivalency Menu",
+    "item": "BYO Mediterranean Bowl",
+    "choices": [
+      "Lemon Rice",
+      "Chicken",
+      "Chickpeas",
+      "Tomato Salad",
+      "Tzatziki Sauce",
+      "No Quinoa"
+    ],
+    "instructions": ""
+  }
+]
